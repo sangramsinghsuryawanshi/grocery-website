@@ -1,0 +1,74 @@
+/* Add this CSS code to your existing "css/style.css" file */
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Set a background image using undraw.com */
+  .contact {
+    background-image: url('../images/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+  }
+  
+  /* Style for the form container */
+  .contact form {
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for form input fields */
+  .contact .box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style for form text area */
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style for the submit button */
+  .contact .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(82, 90, 201);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact .btn:hover {
+    background-color:red;
+  }
+  
+  /* Additional styling for responsiveness */
+  @media (max-width: 768px) {
+    .contact {
+      padding: 50px 0;
+    }
+    .contact form {
+      padding: 15px;
+    }
+  }
+  
